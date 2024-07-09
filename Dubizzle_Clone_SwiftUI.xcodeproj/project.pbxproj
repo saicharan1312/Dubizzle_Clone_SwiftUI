@@ -14,6 +14,7 @@
 		4E9023C92C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9023C82C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUITests.swift */; };
 		4E9023D32C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9023D22C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITests.swift */; };
 		4E9023D52C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9023D42C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITestsLaunchTests.swift */; };
+		4E9023E22C3C459000A9C691 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9023E12C3C459000A9C691 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4E9023CE2C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dubizzle_Clone_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9023D22C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dubizzle_Clone_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		4E9023D42C3C40BC00A9C691 /* Dubizzle_Clone_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dubizzle_Clone_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E9023E12C3C459000A9C691 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4E9023B72C3C40B700A9C691 /* Dubizzle_Clone_SwiftUIApp.swift */,
+				4E9023E12C3C459000A9C691 /* Model.swift */,
 				4E9023B92C3C40B700A9C691 /* ContentView.swift */,
 				4E9023BB2C3C40BB00A9C691 /* Assets.xcassets */,
 				4E9023BD2C3C40BB00A9C691 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9023E22C3C459000A9C691 /* Model.swift in Sources */,
 				4E9023BA2C3C40B700A9C691 /* ContentView.swift in Sources */,
 				4E9023B82C3C40B700A9C691 /* Dubizzle_Clone_SwiftUIApp.swift in Sources */,
 			);
